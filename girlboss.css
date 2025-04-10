@@ -1,6 +1,5 @@
 #container {
     margin: 5% 10% 5% 10%;
-    padding: 5px 10px;
     background-color: #F0EDE4;
 }
 
@@ -13,8 +12,66 @@ body {
     height:60px;
 }
 
+
 header p {
-    font-size: 30px;
+    padding: 20px 10px 0px 10px;
+    font-size: 40px;
     font-family:fantasy;
     text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+    font-family:fantasy;
+    background-Color:#CC9933;
+    margin: 0;
+    padding: 2% 5%;
+}
+
+nav a {
+    margin: 3%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color:black;
+}
+
+main {
+    padding: 2% 5%;
+}
+
+aside {
+    position: relative;
+    height: 75%;
+	float:left;
+	background-color:#CC9933;
+	padding-left:2%;
+	padding-right:2%;
+	width:15%;
+}
+
+footer {
+    float: clear;
+    font-family: fantasy;
+    background-color: #CC9933;
+    text-align:center;
+    padding: 2% 0%;
+}
+
+footer a {
+    color:black;
+}
+
+body {
+    font-family: fantasy;
 }
