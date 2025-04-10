@@ -47,12 +47,12 @@ nav a:visited {
 }
 
 main {
-    padding: 2% 5%;
+    padding: 2% 5% 2% 20%;
 }
 
 aside {
     position: relative;
-    height: 75%;
+    height: auto;
 	float:left;
 	background-color:#CC9933;
 	padding-left:2%;
