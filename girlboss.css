@@ -81,3 +81,10 @@ body {
     display: flex;
     align-content: stretch;
 }
+
+#borg {
+    float: right;
+    height: auto;
+    width: 40%;
+    padding: 2%
+}
