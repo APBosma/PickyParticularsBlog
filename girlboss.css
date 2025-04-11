@@ -81,6 +81,9 @@ body {
     display: flex;
     align-content: stretch;
 }
+#flex p {
+    font-size: 20px;
+}
 
 #borg {
     float: right;
